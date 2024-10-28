@@ -8,6 +8,7 @@
 /* 2. Remove default margin */
 * {
   margin: 0;
+  padding: 0;
 }
 
 body {
@@ -15,6 +16,10 @@ body {
   line-height: 1.5;
   /* 4. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+}
+
+html {
+  font-size: 10px;
 }
 
 /* 5. Improve media defaults */
@@ -66,6 +71,10 @@ h6 {
 #__next {
   isolation: isolate;
 }
+
+:root {
+}
+
 body {
   font-family: "Satoshi", sans-serif;
 }
