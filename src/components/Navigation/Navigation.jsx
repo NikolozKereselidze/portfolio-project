@@ -13,22 +13,22 @@ const Navigation = () => {
       <nav className={styles.navigation}>
         <ul>
           <li className={styles.navList}>
-            <a href="#Home" className={styles.pageLinks}>
+            <a href="#home" className={styles.pageLinks}>
               Home
             </a>
           </li>
           <li className={styles.navList}>
-            <a href="#Skills" className={styles.pageLinks}>
+            <a href="#skills" className={styles.pageLinks}>
               Skills
             </a>
           </li>
           <li className={styles.navList}>
-            <a href="#Projects" className={styles.pageLinks}>
+            <a href="#projects" className={styles.pageLinks}>
               Projects
             </a>
           </li>
           <li className={styles.navList}>
-            <a href="#Resume" className={styles.pageLinks}>
+            <a href="#resume" className={styles.pageLinks}>
               Resume
             </a>
           </li>
