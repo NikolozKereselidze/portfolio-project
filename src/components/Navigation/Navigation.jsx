@@ -28,8 +28,8 @@ const Navigation = () => {
             </a>
           </li>
           <li className={styles.navList}>
-            <a href="#resume" className={styles.pageLinks}>
-              Resume
+            <a href="#contact" className={styles.pageLinks}>
+              Contact
             </a>
           </li>
         </ul>
