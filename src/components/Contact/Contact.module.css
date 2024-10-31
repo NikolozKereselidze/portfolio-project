@@ -1,0 +1,78 @@
+.contactWrapper {
+  padding: 10vh 10vh;
+  padding-top: 0;
+}
+
+.contactInfo {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.2rem;
+}
+
+.contactDetailsWrapper {
+  display: flex;
+  justify-content: center;
+  gap: 5.2rem;
+  margin-bottom: 4.2rem;
+}
+
+.contactDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.contactDetails > i {
+  color: #9013fe;
+  font-size: 3.6rem;
+}
+
+.textHeading {
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.textDetails {
+  color: #888888;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+.contactInfo > input {
+  font-size: 1.2rem;
+  padding: 1.4rem;
+  outline: none;
+  border: solid 1px #ececec;
+}
+
+.contactMessage > textarea {
+  font-size: 1.3rem;
+  outline: none;
+  padding: 1.2rem 4.2rem 4.2rem 1.8rem;
+  width: 100%;
+  margin-top: 3.2rem;
+  border: solid 1px #ececec;
+}
+
+.contactFile > input {
+  cursor: pointer;
+  text-align: center;
+  margin: 2.4rem 0;
+}
+
+.contactSubmit > input {
+  font-size: 1.2rem;
+  padding: 1.4rem 2.4rem;
+  outline: none;
+  background-color: #9013fe;
+  border: solid 1px #ececec;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  transition: opacity 0.2s;
+}
+
+.contactSubmit > input:hover {
+  opacity: 0.9;
+}
