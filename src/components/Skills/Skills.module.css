@@ -1,0 +1,25 @@
+.skillsWrapper {
+  padding: 20vh 15vh;
+  padding-top: 0;
+}
+
+.imgWrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  gap: 1rem;
+  justify-items: center;
+  padding: 2rem;
+  box-shadow: 5px 3px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.imgWrapper > img {
+  width: 90px;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.imgWrapper > img:hover {
+  transform: scale(1.1);
+}
