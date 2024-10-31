@@ -19,9 +19,11 @@ const Home = () => {
             <button className={styles.cvButton}>
               <span>CV</span>
             </button>
-            <button className={styles.hireButton}>
-              <span>Hire Me</span>
-            </button>
+            <a href="#contact">
+              <button className={styles.hireButton}>
+                <span>Hire Me</span>
+              </button>
+            </a>
           </div>
         </div>
       </section>
