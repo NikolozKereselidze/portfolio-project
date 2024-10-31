@@ -1,6 +1,12 @@
+import { useState } from "react";
 import styles from "./Contact.module.css";
 
 const Contact = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [subject, setSubject] = useState("");
+  const [message, setMessage] = useState("");
+
   return (
     <section className={styles.contactWrapper} id="contact">
       <div className="">
@@ -26,13 +32,22 @@ const Contact = () => {
             <h4 className={styles.textDetails}>Tbilisi, Georgia</h4>
           </div>
         </div>
-        <form action="POST" data-netlify="true">
+        <form
+          method="POST"
+          data-netlify-honeypot="bot-field"
+          id="contact"
+          name="contact"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div className={styles.contactInfo}>
             <input
               type="text"
               name="name"
               id="name"
               placeholder="Name"
+              value={name}
+              onChange={(e) => setName(e.target.value)}
               required
             />
             <input
@@ -40,6 +55,8 @@ const Contact = () => {
               name="email"
               id="email"
               placeholder="Email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               required
             />
             <input
@@ -47,6 +64,8 @@ const Contact = () => {
               name="subject"
               id="subject"
               placeholder="Subject"
+              value={subject}
+              onChange={(e) => setSubject(e.target.value)}
             />
           </div>
           <div className={styles.contactMessage}>
@@ -56,6 +75,8 @@ const Contact = () => {
               placeholder="Message"
               rows="7"
               required
+              value={message}
+              onChange={(e) => setMessage(e.target.value)}
             ></textarea>
           </div>
           <div className={styles.contactFile}>
@@ -66,10 +87,9 @@ const Contact = () => {
               placeholder="Application Form"
             />
           </div>
-          <div data-netlify-recaptcha="true"></div>
-          <div className={styles.contactSubmit}>
-            <input type="submit" value="Send Message" />
-          </div>
+          <button type="submit" className={styles.submitButton}>
+            Send Message
+          </button>
         </form>
       </div>
     </section>
