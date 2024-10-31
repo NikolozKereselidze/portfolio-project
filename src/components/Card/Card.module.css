@@ -1,0 +1,37 @@
+.cardImg {
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.cardLink {
+  position: relative;
+  transition: transform 0.2s, opacity 0.2s;
+}
+
+.cardLink:hover {
+  transform: scale(103%);
+  opacity: 0.95;
+}
+
+.details {
+  position: absolute;
+  bottom: 0.8rem;
+  left: 0.8rem;
+}
+
+.title,
+.subtitle {
+  color: #3e4247;
+}
+
+.title {
+  font-size: 1.4rem;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+}
+
+.light {
+  color: #fff;
+}
