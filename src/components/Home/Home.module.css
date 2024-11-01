@@ -12,7 +12,7 @@
   padding: 10vh 15vh;
   padding-bottom: 0;
   position: relative;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .homeGreeting {
