@@ -10,6 +10,7 @@ const JsCard = () => {
         title="Weather"
         subtitle="Js"
         mode="light"
+        desc="Weather Forecast website"
       />
 
       <Card
@@ -17,6 +18,7 @@ const JsCard = () => {
         src={webImages.bankist}
         title="Bankist"
         subtitle="Js"
+        desc="Banking website"
       />
 
       <Card
@@ -24,6 +26,7 @@ const JsCard = () => {
         src={webImages.todo}
         title="Todo"
         subtitle="Js"
+        desc="Todo list website"
       />
 
       <Card
@@ -31,6 +34,7 @@ const JsCard = () => {
         src={webImages.omnifood}
         title="Delivery"
         subtitle="Js"
+        desc="Food delivery website"
       />
 
       <Card
@@ -38,6 +42,7 @@ const JsCard = () => {
         src={webImages.dice}
         title="Dice"
         subtitle="Js"
+        desc="Dice game website"
       />
     </>
   );

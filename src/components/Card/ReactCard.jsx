@@ -9,6 +9,7 @@ const ReactCard = () => {
         src={webImages.cv}
         title="Cv"
         subtitle="React"
+        desc="Cv creating website"
       />
 
       <Card
@@ -16,6 +17,7 @@ const ReactCard = () => {
         src={webImages.shopping}
         title="Shop"
         subtitle="React"
+        desc="Shopping website"
       />
 
       <Card
@@ -24,6 +26,7 @@ const ReactCard = () => {
         title="Memorize"
         subtitle="React"
         mode="light"
+        desc="Memorizing game website"
       />
     </>
   );

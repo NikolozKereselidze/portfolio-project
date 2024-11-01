@@ -24,7 +24,9 @@ const Navigation = () => {
           <li className={styles.navList}>
             <a
               href="#home"
-              onClick={() => toggleActive("home")}
+              onClick={() => {
+                toggleActive("home");
+              }}
               className={`${styles.pageLinks} ${
                 activeButton === "home" ? styles.active : ""
               }`}
@@ -35,7 +37,9 @@ const Navigation = () => {
           <li className={styles.navList}>
             <a
               href="#skills"
-              onClick={() => toggleActive("skills")}
+              onClick={() => {
+                toggleActive("skills");
+              }}
               className={`${styles.pageLinks} ${
                 activeButton === "skills" ? styles.active : ""
               }`}
@@ -46,7 +50,9 @@ const Navigation = () => {
           <li className={styles.navList}>
             <a
               href="#projects"
-              onClick={() => toggleActive("projects")}
+              onClick={() => {
+                toggleActive("projects");
+              }}
               className={`${styles.pageLinks} ${
                 activeButton === "projects" ? styles.active : ""
               }`}
@@ -57,7 +63,9 @@ const Navigation = () => {
           <li className={styles.navList}>
             <a
               href="#contact"
-              onClick={() => toggleActive("contact")}
+              onClick={() => {
+                toggleActive("contact");
+              }}
               className={`${styles.pageLinks} ${
                 activeButton === "contact" ? styles.active : ""
               }`}
@@ -71,17 +79,26 @@ const Navigation = () => {
       <div className={styles.footer}>
         <ul>
           <li className={styles.navList}>
-            <a href="https://github.com/NikolozKereselidze">
+            <a
+              href="https://github.com/NikolozKereselidze"
+              aria-label="Visit Nikoloz Kereselidze's GitHub profile"
+            >
               <i className="fa-brands fa-github"></i>
             </a>
           </li>
           <li className={styles.navList}>
-            <a href="https://www.linkedin.com/in/nikoloz-kereselidze-259573232/">
+            <a
+              href="https://www.linkedin.com/in/nikoloz-kereselidze-259573232/"
+              aria-label="Visit Nikoloz Kereselidze's Linkedin profile"
+            >
               <i className="fa-brands fa-linkedin"></i>
             </a>
           </li>
           <li className={styles.navList}>
-            <a href="https://x.com/Kereselidze_N">
+            <a
+              href="https://x.com/Kereselidze_N"
+              aria-label="Visit Nikoloz Kereselidze's X profile"
+            >
               <i className="fa-brands fa-x"></i>
             </a>
           </li>

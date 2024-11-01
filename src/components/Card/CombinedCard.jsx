@@ -9,6 +9,7 @@ const CombinedCard = () => {
         src={webImages.cv}
         title="Cv"
         subtitle="React"
+        desc="Cv creating website"
       />
 
       <Card
@@ -16,6 +17,7 @@ const CombinedCard = () => {
         src={webImages.shopping}
         title="Shop"
         subtitle="React"
+        desc="Shopping website"
       />
 
       <Card
@@ -24,6 +26,7 @@ const CombinedCard = () => {
         title="Weather"
         subtitle="Js"
         mode="light"
+        desc="Weather Forecast website"
       />
 
       <Card
@@ -32,6 +35,7 @@ const CombinedCard = () => {
         title="Memorize"
         subtitle="React"
         mode="light"
+        desc="Memorizing game website"
       />
 
       <Card
@@ -39,6 +43,7 @@ const CombinedCard = () => {
         src={webImages.bankist}
         title="Bankist"
         subtitle="Js"
+        desc="Banking website"
       />
 
       <Card
@@ -46,6 +51,7 @@ const CombinedCard = () => {
         src={webImages.todo}
         title="Todo"
         subtitle="Js"
+        desc="Todo list website"
       />
 
       <Card
@@ -53,6 +59,7 @@ const CombinedCard = () => {
         src={webImages.omnifood}
         title="Delivery"
         subtitle="Js"
+        desc="Food delivery website"
       />
 
       <Card
@@ -60,6 +67,7 @@ const CombinedCard = () => {
         src={webImages.dice}
         title="Dice"
         subtitle="Js"
+        desc="Dice game website"
       />
     </>
   );
