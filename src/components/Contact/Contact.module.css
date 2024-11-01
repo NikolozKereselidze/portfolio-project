@@ -10,7 +10,8 @@
 }
 
 .contactDetailsWrapper {
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   justify-content: center;
   gap: 5.2rem;
   margin-bottom: 4.2rem;
