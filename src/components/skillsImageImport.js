@@ -1,17 +1,19 @@
-import css from "../assets/skills/css.png";
-import html from "../assets/skills/html.png";
-import jest from "../assets/skills/jest.png";
-import js from "../assets/skills/js.png";
-import react from "../assets/skills/react.png";
-import webpack from "../assets/skills/webpack.png";
+import html from "../assets/skills/html.svg";
+import css from "../assets/skills/css.svg";
+import js from "../assets/skills/js.svg";
+import react from "../assets/skills/react.svg";
+import jest from "../assets/skills/jest.svg";
+import webpack from "../assets/skills/webpack.svg";
+import git from "../assets/skills/git.svg";
 
 const skillsImages = {
   css,
   html,
-  jest,
   js,
   react,
+  jest,
   webpack,
+  git,
 };
 
 export default skillsImages;

@@ -157,7 +157,7 @@
 
 @media screen and (max-width: 500px) {
   .aside {
-    padding: 1.4rem 0.4rem;
+    padding: 1.4rem 1rem;
   }
   .navHeader {
     font-size: 0.8rem;

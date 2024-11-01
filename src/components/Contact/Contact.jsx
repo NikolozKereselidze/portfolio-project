@@ -38,6 +38,7 @@ const Contact = () => {
           id="contact"
           name="contact"
           data-netlify="true"
+          className={styles.form}
         >
           <input type="hidden" name="form-name" value="contact" />
           <div className={styles.contactInfo}>
