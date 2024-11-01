@@ -106,7 +106,7 @@
 /* Media Queries */
 @media screen and (max-width: 1400px) {
   .homeWrapper {
-    min-height: 70vh;
+    min-height: 40vh;
   }
 
   .homeWrapper > div > h4 {
@@ -163,5 +163,20 @@
   .hireButton {
     padding: 1rem 2rem;
     font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .homeGreeting {
+    font-size: 2.4rem;
+  }
+
+  .homeAbout {
+    font-size: 1.2rem;
+  }
+
+  .cvButton,
+  .hireButton {
+    font-size: 0.7rem;
   }
 }

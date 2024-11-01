@@ -26,6 +26,10 @@
 
 /* Media Queries */
 @media screen and (max-width: 1400px) {
+  .skillsWrapper {
+    padding: 10vh;
+    padding-bottom: 5vh;
+  }
   .imgWrapper {
     grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
   }

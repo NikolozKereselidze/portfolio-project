@@ -1,5 +1,5 @@
 .contactWrapper {
-  padding: 10vh 10vh;
+  padding: 10vh;
   padding-top: 0;
 }
 
@@ -97,9 +97,7 @@
   .textDetails {
     font-size: 1.4rem;
   }
-}
 
-@media screen and (max-width: 1400px) {
   .submitButton {
     padding: 1.2rem 2.2rem;
     font-size: 1.1rem;
@@ -133,10 +131,12 @@
   }
 
   .contactInfo > input {
+    width: 70%;
     padding: 1rem;
   }
 
   .contactMessage > textarea {
+    width: 70%;
     padding: 1rem;
     margin-top: 2rem;
     height: 8em;
