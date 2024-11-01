@@ -1,7 +1,14 @@
+import { useState } from "react";
 import navPhoto from "../../assets/main-photo.jpg";
 import styles from "./Navigation.module.css";
 
 const Navigation = () => {
+  const [activeButton, setActiveButton] = useState("home");
+
+  const toggleActive = (category) => {
+    setActiveButton(category);
+  };
+
   return (
     <aside className={styles.aside}>
       <div className={styles.photoWrapper}>
@@ -13,22 +20,46 @@ const Navigation = () => {
       <nav className={styles.navigation}>
         <ul>
           <li className={styles.navList}>
-            <a href="#home" className={styles.pageLinks}>
+            <a
+              href="#home"
+              onClick={() => toggleActive("home")}
+              className={`${styles.pageLinks} ${
+                activeButton === "home" ? styles.active : ""
+              }`}
+            >
               Home
             </a>
           </li>
           <li className={styles.navList}>
-            <a href="#skills" className={styles.pageLinks}>
+            <a
+              href="#skills"
+              onClick={() => toggleActive("skills")}
+              className={`${styles.pageLinks} ${
+                activeButton === "skills" ? styles.active : ""
+              }`}
+            >
               Skills
             </a>
           </li>
           <li className={styles.navList}>
-            <a href="#projects" className={styles.pageLinks}>
+            <a
+              href="#projects"
+              onClick={() => toggleActive("projects")}
+              className={`${styles.pageLinks} ${
+                activeButton === "projects" ? styles.active : ""
+              }`}
+            >
               Projects
             </a>
           </li>
           <li className={styles.navList}>
-            <a href="#contact" className={styles.pageLinks}>
+            <a
+              href="#contact"
+              onClick={() => toggleActive("contact")}
+              className={`${styles.pageLinks} ${
+                activeButton === "contact" ? styles.active : ""
+              }`}
+            >
               Contact
             </a>
           </li>
