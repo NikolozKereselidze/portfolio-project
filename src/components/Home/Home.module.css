@@ -10,9 +10,8 @@
 
 .homeWrapper {
   padding: 10vh 15vh;
-  padding-bottom: 0;
   position: relative;
-  min-height: 100vh;
+  min-height: 70vh;
 }
 
 .homeGreeting {
@@ -132,7 +131,6 @@
 @media screen and (max-width: 855px) {
   .homeWrapper {
     padding: 10vh 5vh;
-    min-height: 40vh;
     margin-bottom: 5.2rem;
   }
 
@@ -147,8 +145,6 @@
 
 @media screen and (max-width: 500px) {
   .homeWrapper {
-    padding: 10vh 5vh;
-    min-height: 40vh;
     margin-bottom: 3rem;
   }
   .homeGreeting {
