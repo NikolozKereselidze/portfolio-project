@@ -11,3 +11,22 @@
   margin-bottom: 8.2rem;
   border-bottom: 1px solid #9013fe;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 1400px) {
+  .sections-wrapper {
+    padding: 0;
+  }
+
+  .sectionInfo {
+    font-size: 2.4rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .sectionInfo {
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+  }
+}

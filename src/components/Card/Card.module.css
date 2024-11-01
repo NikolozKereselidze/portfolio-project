@@ -35,3 +35,15 @@
 .light {
   color: #fff;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 0.9rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+}

@@ -23,3 +23,40 @@
 .imgWrapper > img:hover {
   transform: scale(1.1);
 }
+
+/* Media Queries */
+@media screen and (max-width: 1400px) {
+  .imgWrapper {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+  }
+
+  .imgWrapper > img {
+    width: 7rem;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .skillsWrapper {
+    padding: 0 5vh;
+    padding-bottom: 10vh;
+  }
+
+  .imgWrapper {
+    grid-template-columns: repeat(auto-fill, minmax(145px, 1fr));
+  }
+  .imgWrapper > img {
+    width: 5rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .imgWrapper {
+    grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+    padding: 1rem;
+    gap: 0.6rem;
+  }
+
+  .imgWrapper > img {
+    width: 4rem;
+  }
+}

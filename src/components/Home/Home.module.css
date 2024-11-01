@@ -102,3 +102,66 @@
 .hireButton:hover {
   color: #fff;
 }
+
+/* Media Queries */
+@media screen and (max-width: 1400px) {
+  .homeWrapper {
+    min-height: 70vh;
+  }
+
+  .homeWrapper > div > h4 {
+    display: none;
+    visibility: hidden;
+  }
+
+  .homeGreeting {
+    font-size: 5.2rem;
+  }
+
+  .homeAbout {
+    font-size: 2.1rem;
+  }
+
+  .cvButton,
+  .hireButton {
+    padding: 1.2rem 2.2rem;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 855px) {
+  .homeWrapper {
+    padding: 10vh 5vh;
+    min-height: 40vh;
+    margin-bottom: 5.2rem;
+  }
+
+  .homeGreeting {
+    font-size: 3.4rem;
+  }
+
+  .homeAbout {
+    font-size: 1.7rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .homeWrapper {
+    padding: 10vh 5vh;
+    min-height: 40vh;
+    margin-bottom: 3rem;
+  }
+  .homeGreeting {
+    font-size: 2.8rem;
+  }
+
+  .homeAbout {
+    font-size: 1.4rem;
+  }
+
+  .cvButton,
+  .hireButton {
+    padding: 1rem 2rem;
+    font-size: 0.8rem;
+  }
+}
