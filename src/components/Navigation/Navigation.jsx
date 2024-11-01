@@ -11,11 +11,13 @@ const Navigation = () => {
 
   return (
     <aside className={styles.aside}>
-      <div className={styles.photoWrapper}>
-        <img src={navPhoto} alt="" />
-      </div>
+      <div className={styles.photoNameWrapper}>
+        <div className={styles.photoWrapper}>
+          <img src={navPhoto} alt="" />
+        </div>
 
-      <h2 className={styles.navHeader}>Nikoloz Kereselidze</h2>
+        <h2 className={styles.navHeader}>Nikoloz Kereselidze</h2>
+      </div>
 
       <nav className={styles.navigation}>
         <ul>
@@ -84,7 +86,6 @@ const Navigation = () => {
             </a>
           </li>
         </ul>
-        <h4>&#169; 2024 Nikoloz Kereselidze</h4>
       </div>
     </aside>
   );

@@ -13,6 +13,11 @@
   gap: 1.2rem;
 }
 
+.photoNameWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
 .photoWrapper {
   align-self: center;
   border-radius: 50%;
@@ -71,9 +76,4 @@
   justify-content: center;
   font-size: 1.5rem;
   gap: 1.8rem;
-}
-
-.footer > h4 {
-  color: #999;
-  text-align: center;
 }
