@@ -58,7 +58,7 @@ Your website should now be running on [http://localhost:5173](http://localhost:5
 
 ## 🌐 Live Demo
 
-[Visit the live website here](https://soft-puffpuff-932091.netlify.app/)
+[Visit the live website here](https://nikolozkereselidze.live)
 
 ## Contact
 
