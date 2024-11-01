@@ -16,9 +16,13 @@ const Home = () => {
           </p>
 
           <div className={styles.buttons}>
-            <button className={styles.cvButton}>
+            <a
+              href="/nikoloz-kereselidze-cv.pdf"
+              download="Nika-Kereselidze-CV.pdf"
+              className={styles.cvButton}
+            >
               <span>CV</span>
-            </button>
+            </a>
             <a href="#contact">
               <button className={styles.hireButton}>
                 <span>Hire Me</span>
