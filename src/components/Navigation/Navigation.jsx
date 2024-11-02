@@ -99,7 +99,7 @@ const Navigation = () => {
               href="https://x.com/Kereselidze_N"
               aria-label="Visit Nikoloz Kereselidze's X profile"
             >
-              <i className="fa-brands fa-x"></i>
+              <i className="fa-brands fa-x-twitter"></i>
             </a>
           </li>
         </ul>

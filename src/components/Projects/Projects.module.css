@@ -30,18 +30,9 @@
 
 /* Media Queries */
 
-@media screen and (max-width: 1400px) {
-  .cardWrapper {
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  }
-}
-
 @media screen and (max-width: 855px) {
   .projectsWrapper {
     padding: 10vh 5vh;
-  }
-  .cardWrapper {
-    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
   }
 }
 

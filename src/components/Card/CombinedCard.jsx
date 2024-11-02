@@ -15,7 +15,7 @@ const CombinedCard = () => {
       <Card
         href="https://clothingmosaic.netlify.app/"
         src={webImages.shopping}
-        title="Shop"
+        title="Shopping"
         subtitle="React"
         desc="Shopping website"
       />

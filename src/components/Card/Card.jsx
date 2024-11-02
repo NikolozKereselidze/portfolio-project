@@ -10,11 +10,13 @@ const Card = ({ href, src, title, subtitle, mode, desc }) => {
       rel="noopener noreferrer"
     >
       <img src={src} className={styles.cardImg} alt={desc} loading="lazy" />
-      <div className={styles.details}>
+      <div className={styles.titleWrapper}>
         <h4 className={`${styles.title} ${mode ? styles[mode] : ""}`}>
           {title}
         </h4>
-        <h4 className={`${styles.title} ${mode ? styles[mode] : ""}`}>
+      </div>
+      <div className={styles.subtitleWrapper}>
+        <h4 className={`${styles.subtitle} ${mode ? styles[mode] : ""} `}>
           {subtitle}
         </h4>
       </div>
