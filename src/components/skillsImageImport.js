@@ -5,6 +5,7 @@ import react from "../assets/skills/react.svg";
 import jest from "../assets/skills/jest.svg";
 import webpack from "../assets/skills/webpack.svg";
 import git from "../assets/skills/git.svg";
+import sql from "../assets/skills/sql.svg";
 
 const skillsImages = {
   css,
@@ -14,6 +15,7 @@ const skillsImages = {
   jest,
   webpack,
   git,
+  sql,
 };
 
 export default skillsImages;

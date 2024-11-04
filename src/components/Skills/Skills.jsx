@@ -13,6 +13,7 @@ const Skills = () => {
     { name: "Git", img: skillsImages.git },
     { name: "Webpack", img: skillsImages.webpack },
     { name: "Jest", img: skillsImages.jest },
+    { name: "SQL", img: skillsImages.sql },
   ];
 
   const handleMouseEnter = (skill) => {
@@ -40,7 +41,7 @@ const Skills = () => {
           {skills.map((skill, index) => (
             <div
               key={index}
-              className={`${styles.skill} ${styles[skill.name.toLowerCase()]}`}
+              className={`${styles[skill.name.toLowerCase()]}`}
               onMouseEnter={() => handleMouseEnter(skill.name)}
               onMouseMove={handleMouseMove}
               onMouseLeave={handleMouseLeave}
