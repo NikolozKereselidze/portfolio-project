@@ -8,11 +8,16 @@ const Home = () => {
           <h4 className="sectionInfo">About Me</h4>
           <h2 className={styles.homeGreeting}>Hello, </h2>
           <p className={styles.homeAbout}>
-            I am a Frontend web developer specializing in dynamic and
-            interactive user interfaces, with a strong command of JavaScript,
-            React, and Git. Passionate about continuous learning and delivering
-            polished, high-performance experiences. My expertise ensures
-            optimized and efficient solutions.
+            Front-End Developer with a focus on creating dynamic, interactive
+            user experiences. With one year of hands-on experience, I excel in
+            leveraging JavaScript and React to build responsive interfaces that
+            engage users. My proficiency in working with APIs and React Router,
+            along with a solid understanding of JavaScript concepts like
+            async/await and promises, enables me to develop efficient and
+            scalable solutions. I am committed to continuous learning and thrive
+            on turning complex challenges into polished, high-performance web
+            applications. Let's connect and explore how I can contribute to your
+            team!
           </p>
 
           <div className={styles.buttons}>
