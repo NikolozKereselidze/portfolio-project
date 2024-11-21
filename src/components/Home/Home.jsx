@@ -8,22 +8,23 @@ const Home = () => {
           <h4 className="sectionInfo">About Me</h4>
           <h2 className={styles.homeGreeting}>Hello, </h2>
           <p className={styles.homeAbout}>
-            Front-End Developer with a focus on creating dynamic, interactive
-            user experiences. With one year of hands-on experience, I excel in
-            leveraging JavaScript and React to build responsive interfaces that
-            engage users. My proficiency in working with APIs and React Router,
-            along with a solid understanding of JavaScript concepts like
-            async/await and promises, enables me to develop efficient and
-            scalable solutions. I am committed to continuous learning and thrive
-            on turning complex challenges into polished, high-performance web
-            applications. Let's connect and explore how I can contribute to your
-            team!
+            Front-End Developer passionate about crafting seamless, user-centric
+            web experiences. With one year of practical experience, I specialize
+            in building responsive and engaging interfaces using JavaScript and
+            React. My expertise includes API integration, React Router for
+            dynamic navigation, and advanced JavaScript techniques like
+            async/await and promises, ensuring scalable and efficient solutions.
+            Known for my attention to detail and problem-solving mindset, I
+            excel at transforming complex challenges into intuitive,
+            high-performance applications. Eager to bring fresh ideas and a
+            commitment to excellence to your team let's create something
+            impactful together!
           </p>
 
           <div className={styles.buttons}>
             <a
-              href="/nikoloz-kereselidze-cv.pdf"
-              download="Nika-Kereselidze-CV.pdf"
+              href="/nikoloz-kereselidze-resume.pdf"
+              download="Nikoloz-Kereselidze-CV.pdf"
               className={styles.cvButton}
             >
               <span>CV</span>

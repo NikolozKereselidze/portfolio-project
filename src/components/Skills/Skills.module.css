@@ -53,6 +53,11 @@
   background-color: #55d4f773;
 }
 
+.node,
+.express {
+  background-color: #fff;
+}
+
 .imgWrapper > div {
   height: auto;
   padding: 1rem;
