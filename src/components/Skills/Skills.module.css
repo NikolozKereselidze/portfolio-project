@@ -88,12 +88,22 @@
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 760px) {
+  .imgWrapper {
+    gap: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
   .skillsWrapper {
     padding-bottom: 0;
   }
   .imgWrapper {
-    padding: 1rem;
-    gap: 0.6rem;
+    padding: 1.4rem 1rem;
+    gap: 0.5rem;
+  }
+
+  .imgWrapper > div {
+    padding: 0.4rem;
   }
 }
