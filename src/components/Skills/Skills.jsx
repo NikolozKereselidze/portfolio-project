@@ -13,9 +13,7 @@ const Skills = () => {
     { name: "Git", img: skillsImages.git },
     { name: "Webpack", img: skillsImages.webpack },
     { name: "Jest", img: skillsImages.jest },
-    { name: "SQL", img: skillsImages.sql },
-    { name: "Node", img: skillsImages.node },
-    { name: "Express", img: skillsImages.express },
+    { name: "Typescript", img: skillsImages.typescript },
   ];
 
   const handleMouseEnter = (skill) => {

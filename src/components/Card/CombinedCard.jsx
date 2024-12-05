@@ -39,6 +39,15 @@ const CombinedCard = () => {
       />
 
       <Card
+        href="https://georgiantravel.netlify.app/"
+        src={webImages.travel}
+        title="Travel"
+        subtitle="React"
+        mode="light"
+        desc="Travel agency website"
+      />
+
+      <Card
         href="https://georgianbankist.netlify.app/"
         src={webImages.bankist}
         title="Bankist"

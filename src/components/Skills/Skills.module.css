@@ -30,7 +30,8 @@
   background-color: #e44d2650;
 }
 
-.css {
+.css,
+.typescript {
   background-color: #1572b650;
 }
 .js {
@@ -47,15 +48,6 @@
 }
 .jest {
   background-color: #932f5450;
-}
-
-.sql {
-  background-color: #55d4f773;
-}
-
-.node,
-.express {
-  background-color: #fff;
 }
 
 .imgWrapper > div {

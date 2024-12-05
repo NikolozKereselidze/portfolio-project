@@ -4,6 +4,7 @@ import bankist from "../assets/websites/bankist.jpg";
 import dice from "../assets/websites/dice.jpg";
 import omnifood from "../assets/websites/omnifood.jpg";
 import memorize from "../assets/websites/memorize.jpg";
+import travel from "../assets/websites/travel-agency.jpg";
 import cv from "../assets/websites/cv.jpg";
 import shopping from "../assets/websites/shopping.jpg";
 
@@ -16,6 +17,7 @@ const webImages = {
   memorize,
   cv,
   shopping,
+  travel,
 };
 
 export default webImages;
